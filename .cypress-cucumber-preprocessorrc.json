@@ -1,0 +1,10 @@
+{
+    "stepDefinitions": [
+        "cypress/cucumber/step_definitions/[filepath]/**/*.{tsx,ts}",
+        "cypress/cucumber/step_definitions/[filepath].{tsx,ts}",
+        "cypress/cucumber/step_definitions/**/*.{tsx,ts}"
+    ],
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/cucumber/step_definitions/common",
+    "nonGlobalStepBaseDir": "cypress/cucumber"
+}
